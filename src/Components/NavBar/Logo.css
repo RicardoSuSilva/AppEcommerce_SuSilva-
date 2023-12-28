@@ -1,0 +1,16 @@
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 55px;
+    height: 60px;
+}
+  
+.logo p {
+    margin-left: 10px;
+    font-size: 35px;
+    font-weight: bold;
+}
