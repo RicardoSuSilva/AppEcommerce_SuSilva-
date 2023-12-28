@@ -1,7 +1,6 @@
 import {useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import arrayProductos from '../Json/arrayProductos.json';
-import './ItemListContainer.css';
 import ItemList from '../ItemList/ItemList';
 
 
@@ -17,7 +16,7 @@ const ItemListContainer = () => {
       const data = await new Promise((resolve)=>{
         setTimeout(()=>{
           resolve( id ? arrayProductos.filter(item => item.categoria === id) : arrayProductos)
-      }, 1500);
+      }, 1000);
     });
   setItem(data);
   } catch(error){

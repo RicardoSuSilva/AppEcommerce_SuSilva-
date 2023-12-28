@@ -6,7 +6,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-1.jpg",
       "categoria": "ropa",
-      "stock": 40
+      "stock": 20
       
     },
     {
@@ -16,7 +16,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-2.jpg",
       "categoria": "ropa",
-      "stock": 45
+      "stock": 20
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-3.jpg",
       "categoria": "ropa",
-      "stock": 60
+      "stock": 20
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-4.jpg",
       "categoria": "ropa",
-      "stock": 55
+      "stock": 20
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-5.png",
       "categoria": "accesorio",
-      "stock": 50
+      "stock": 20
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-6.png",
       "categoria": "calzado",
-      "stock": 70
+      "stock": 20
     },
     {
       "id": 7,
@@ -61,7 +61,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-7.png",
       "categoria":"ropa",
-      "stock": 50
+      "stock": 20
     },
     {
       "id": 8,
@@ -70,7 +70,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-8.png",
       "categoria":"ropa",
-      "stock": 80
+      "stock": 20
     },
     {
       "id": 9,
@@ -79,7 +79,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-9.png",
       "categoria":"ropa",
-      "stock": 60
+      "stock": 20
     },
     {
       "id": 10,
@@ -88,7 +88,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-10.png",
       "categoria":"ropa",
-      "stock": 100
+      "stock": 20
     },
     {
       "id": 11,
@@ -97,7 +97,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-11.png",
       "categoria": "accesorio",
-      "stock": 120
+      "stock": 20
     },
     {
       "id": 12,
@@ -106,7 +106,7 @@
       "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
       "image": "../images/img-12.png",
       "categoria":"calzado",
-      "stock": 100
+      "stock": 20
     }
   ]
   
