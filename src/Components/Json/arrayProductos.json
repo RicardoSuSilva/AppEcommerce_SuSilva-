@@ -3,7 +3,7 @@
       "id": 1,
       "name": "Camisa Casual",
       "price": 45,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc":"Camisa manga larga 90% algodon/10% rayon.",
       "image": "../images/img-1.jpg",
       "categoria": "ropa",
       "stock": 20
@@ -13,7 +13,7 @@
       "id": 2,
       "name": "Camisa Vestir",
       "price": 100,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc": "Camisa vestir manga larga 98% poplin/2% elastano.",
       "image": "../images/img-2.jpg",
       "categoria": "ropa",
       "stock": 20
@@ -22,7 +22,7 @@
       "id": 3,
       "name": "Remera",
       "price": 25,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc": "Remera manga corta 100% algodon.",
       "image": "../images/img-3.jpg",
       "categoria": "ropa",
       "stock": 20
@@ -31,7 +31,7 @@
       "id": 4,
       "name": "Saco Mens",
       "price": 300,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc": "Saco Vestir tela sastrero.",
       "image": "../images/img-4.jpg",
       "categoria": "ropa",
       "stock": 20
@@ -40,7 +40,7 @@
       "id": 5,
       "name": "Corbata",
       "price": 25,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc": "Corbata multicolor de seda.",
       "image": "../images/img-5.png",
       "categoria": "accesorio",
       "stock": 20
@@ -49,7 +49,7 @@
       "id": 6,
       "name": "Calzado Casual",
       "price": 200,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc": "Calzado casual urbano de gamuza.",
       "image": "../images/img-6.png",
       "categoria": "calzado",
       "stock": 20
@@ -58,7 +58,7 @@
       "id": 7,
       "name": "Traje Black",
       "price": 450,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc": "Traje de paño sastrero popelina importada.",
       "image": "../images/img-7.png",
       "categoria":"ropa",
       "stock": 20
@@ -67,7 +67,7 @@
       "id": 8,
       "name": "Chomba Polo",
       "price": 45,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc": "Chomba con cartera y cuello tejido, tela pique 100% algodon.",
       "image": "../images/img-8.png",
       "categoria":"ropa",
       "stock": 20
@@ -76,7 +76,7 @@
       "id": 9,
       "name": "Camisa Denim",
       "price": 85,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc": "Camisa sport Denim 4 ozs.",
       "image": "../images/img-9.png",
       "categoria":"ropa",
       "stock": 20
@@ -85,7 +85,7 @@
       "id": 10,
       "name": "Pantalon Denim",
       "price": 120,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc": "Pantalon urbano denim 6 ozs.",
       "image": "../images/img-10.png",
       "categoria":"ropa",
       "stock": 20
@@ -94,7 +94,7 @@
       "id": 11,
       "name": "Gorra Basic",
       "price": 35,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc": "Gorra denim 100% algodon.",
       "image": "../images/img-11.png",
       "categoria": "accesorio",
       "stock": 20
@@ -103,7 +103,7 @@
       "id": 12,
       "name": "Botines Cuero",
       "price": 350,
-      "desc": "Lorem ipsum dolor sit amet consectetur adipisicing.",
+      "desc": "Botines trekking para toda ocasion.",
       "image": "../images/img-12.png",
       "categoria":"calzado",
       "stock": 20

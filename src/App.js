@@ -7,6 +7,7 @@ import Error from './Components/Error';
 import ItemDetailContainer from './Components/ItemDetailContainer/ItemDetailContainer';
 import Cart from './Components/Cart/Cart';
 import CartProvider from './Components/Context/CartContext';
+import LoaderComponent from './Components/LoaderComponent';
 
 
 
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
     <BrowserRouter>
+    <LoaderComponent/>
     <CartProvider>
     <NavBar/>
     <Routes>
