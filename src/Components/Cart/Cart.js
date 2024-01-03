@@ -2,10 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useCartContext } from '../Context/CartContext';
 import ItemCart from '../ItemCart/ItemCart';
+import {getFirestore, collection, addDoc } from 'firebase/firestore';
 
 const Cart = () => {
   const { cart, totalPrice } = useCartContext();
- 
+
   if (cart.length === 0) {
     return (
       <>

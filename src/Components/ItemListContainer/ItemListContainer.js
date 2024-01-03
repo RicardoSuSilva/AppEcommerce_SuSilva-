@@ -19,16 +19,16 @@ const ItemListContainer = () => {
       getDocs(queryFilter).then((res) =>
       setItem(res.docs.map((p)=> ({id: p.id, ...p.data()})))
       );
-    }else{
+     } else{
       getDocs(queryCollection).then((res)=> 
       setItem(res.docs.map((p)=> ({id: p.id, ...p.data()})))
       ); 
-    }
+     }
 
 
-  }, [id])
+   }, [id])
 
-  return(
+    return(
     <div className='container'>
       <div className='row'>  
       
@@ -37,7 +37,7 @@ const ItemListContainer = () => {
       </div>
     </div>
     
-  );
+    );
 
 }
 
