@@ -12,7 +12,7 @@ export const CheckOut = () =>{
       const [ordenId, setOrdenId] = useState('');
       const [mensaje, setMensaje] = useState('');
 
-     const {cart, totalPrice, removeProduct} = useCartContext();
+     const {cart, totalPrice, removeProduct, clearCart} = useCartContext();
 
      const manejadorFormulario = (event) =>{
       event.preventDefault();
@@ -28,7 +28,7 @@ export const CheckOut = () =>{
       return;
      }
 
-
+                                                                          
      const total = totalPrice();
      const orden ={
       items: cart.map((producto)=>({
@@ -62,6 +62,7 @@ export const CheckOut = () =>{
        .then((docRef)=>{
         setOrdenId(docRef.id);
         removeProduct();
+        clearCart();
        })
       .catch((error)=>{
         console.log('No se pudo crear la orden', error);
