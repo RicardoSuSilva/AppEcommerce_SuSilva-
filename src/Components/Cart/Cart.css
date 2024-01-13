@@ -1,0 +1,34 @@
+.container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+   
+.container.img {
+
+    max-width: 100%;
+    height: auto;
+}
+   
+.container.p {
+
+    text-align: center;
+   }
+   
+/*.container.btn-total {
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+   
+.container .btn-total:hover {
+    opacity: 0.8;
+} 
+*/

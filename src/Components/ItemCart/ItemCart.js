@@ -1,9 +1,11 @@
 import React from 'react';
 import { useCartContext } from '../Context/CartContext';
 
+
 const ItemCart = ({ product }) => {
     const { removeProduct } = useCartContext();
     return (
+      
       <div className="itemCart">
         <img src={product.image} alt={product.title} />
         <div>
@@ -14,6 +16,7 @@ const ItemCart = ({ product }) => {
           <button onClick={() => removeProduct(product.id)}>Eliminar</button>
         </div>
       </div>
+      
     );
 };
 

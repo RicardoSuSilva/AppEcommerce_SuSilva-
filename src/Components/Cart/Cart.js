@@ -12,12 +12,12 @@ const Cart = () => {
       <>
         <p>No hay elementos en el carrito</p>
         <Link to="/">Hacer compras</Link>
-      </>
+      </> 
     );
   }
 
   return (
-    <>
+    <div className="container fluid">
       {cart.map((product) => (
         <ItemCart key={product.id} product={product} />
       ))}
@@ -27,7 +27,7 @@ const Cart = () => {
         {' '}
         <button className="btn-total">Finalizar Compra</button>
       </Link>
-    </>
+      </div>
   );
 };
 
