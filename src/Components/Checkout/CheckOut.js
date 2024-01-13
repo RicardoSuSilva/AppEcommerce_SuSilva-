@@ -1,7 +1,9 @@
 import { useState } from "react"
 import { useCartContext } from "../Context/CartContext"
 import {getFirestore, collection, addDoc, updateDoc, doc, getDoc} from 'firebase/firestore';
+import {Link} from 'react-router-dom';
 import './CheckOut.css';
+
 
 export const CheckOut = () =>{
       const [nombre, setNombre] = useState('');
@@ -131,10 +133,15 @@ export const CheckOut = () =>{
           {ordenId && (
             <p> ¡Gracias por tu compra ! Tu numero de seguimiento es: <br/> {''} {ordenId} {''} <br/></p>
           )}
-           <div>
+                      
             <button type="submit"> Enviar </button>
-           </div>
+          
           </form>
+          <Link to="/">
+          <button>Volver al Inicio</button>
+          </Link>
+                
         </div>
+         
      );
     }
