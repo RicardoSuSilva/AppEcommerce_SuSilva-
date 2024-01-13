@@ -1,0 +1,17 @@
+.input-check {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: grid;
+    justify-content: center;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+}
+   
+.lab-check {
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+   

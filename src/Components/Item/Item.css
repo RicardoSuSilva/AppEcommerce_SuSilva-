@@ -30,10 +30,10 @@
 /* Estilos para los enlaces */
     text-decoration-none {
     text-decoration: none;
-    color: #000; /* Cambia el color del enlace según tu preferencia */
+    color: #000; 
     }
   
   /* Estilos para los enlaces en hover (opcional) */
     .text-decoration-none:hover {
-    color: #007bff; /* Cambia el color en hover según tu preferencia */
+    color: #007bff; 
     }
